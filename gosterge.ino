@@ -8,7 +8,7 @@
 U8G2_ST7920_128X64_F_SW_SPI u8g2(U8G2_R0, /* clock=*/ 13, /* data=*/ 11, /* CS=*/ 10, /* reset=*/ 8);
 
 //MPU6050 tanımlamaları
-#define MPU_I2C_ADDR    0X69 //MPU6050 sensörünün I2C adresi -> datasheet veya I2C scanner
+#define MPU_I2C_ADDR    0X68 //MPU6050 sensörünün I2C adresi -> datasheet veya I2C scanner
 #define PWR_MGMT_1      0x6B //reset-sleep-temp-clk işlemleri için register adresi
 #define SMPRT_DIV       0x19 //clk ayarı için register ad/Users/zeynepkaplan/Documentsresi
 #define GYRO_CONFIG     0x1B //Gyroscope ölçüm ayarı register adresi
